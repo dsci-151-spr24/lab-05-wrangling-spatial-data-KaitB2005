@@ -43,7 +43,7 @@ You can load them by running the following in your Console:
 
 When you do this lab to install `dsbox` you can copy the code below into the console:
 
-```
+```{r}
 install.packages("devtools")
 devtools::install_github("tidyverse/dsbox")
 ```
@@ -159,6 +159,8 @@ Now that we have the data in the format we wanted, all that is left is to calcul
 🧶 ✅ ⬆️ Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 
 5.  What function from the tidyverse do we use the add a new variable to a data frame while keeping the existing variables?
+
+***Mutate()
 
 One way of calculating the distance between any two points on the earth is to use the Haversine distance formula.
 This formula takes into account the fact that the earth is not flat, but instead spherical.
